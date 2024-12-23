@@ -1,27 +1,26 @@
-
 # main.py - A simple Python script demonstrating basic data structures and functions
 # Following PEP 8 guidelines
 
 # 1. Lists
-fruits = ["🍎 apple", "🍌 banana", "🍒 cherry"]
-print("Fruits I might steal at 3 AM:", fruits)
+things = ["left shoes", "pasta", "drugs"]
+print("Things I might steal at 3 AM:", things)
 
 # 2. Dictionaries
 person = {
-    "name": "Reed",
+    "name": "big phil",
     "age": "old enough",
     "hobby": "your mom"
 }
-print("Suspicious Individual:", person)
+print("The duke of nova scotia:", person)
 
 # 3. Tuples
 coordinates = (51.5074, -0.1278)  # Random but mysterious
-print("Coordinates the clitoris (probably):", coordinates)
+print("Coordinates of buried treasure (probably):", coordinates)
 
 # 4. Loops
-print("Considering these fruits for a heist:")
-for fruit in fruits:
-    print(fruit)
+print("Considering these things for a heist:")
+for thing in things:
+    print(thing)
 
 # 5. Functions
 def greet(name):
@@ -29,7 +28,8 @@ def greet(name):
 
 print(greet(person["name"]))
 
-# 6. Modules
-import math
-print("Can confirm, square root of 16 is still:", math.sqrt(16))
+# 6. Mathematical Anomaly
+result = (80084 * 2069) + 69
+print("Advanced mathematical anomaly reveals:", result)
+
 
